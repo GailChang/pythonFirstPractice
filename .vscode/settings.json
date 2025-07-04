@@ -1,8 +1,5 @@
 {
-    //"python.pythonPath": "C:\\Users\\gail8\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
     "python.terminal.activateEnvironment": true,
-    "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true,
     "files.encoding": "utf8",
     "workbench.startupEditor": "none",
 }
