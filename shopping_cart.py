@@ -1,4 +1,4 @@
-# 購物車程式
+"""購物車程式"""
 
 goods = []
 prices = []
@@ -12,9 +12,8 @@ while True:
     goods.append(good)
     prices.append(price)
 
-total = 0
+TOTAL = 0
 for index, good in enumerate(goods):
     print(f"第 {index + 1} 個商品 | 品名: {good}; 價格: {prices[index]:.2f}")
-    total += prices[index]
-print(f'總金額: ${total:.2f}')
-
+    TOTAL += prices[index]
+print(f'總金額: ${TOTAL:.2f}')
