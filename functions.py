@@ -1,4 +1,4 @@
-"""認識函數/方法(method)"""
+"""認識函式/方法(method)"""
 
 def say_hello(number):
     """說你好"""
