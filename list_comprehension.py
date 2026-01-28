@@ -6,10 +6,10 @@
 def square(x):
     """平方"""
     return x * x
-list = []
+sample = []
 for i in range(1, 11):
-    list.append(square(i))
-# print(list)
+    sample.append(square(i))
+# print(sample)
 
 # 第二版寫法，使用列表推導式
 squares = [
